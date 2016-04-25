@@ -8,7 +8,6 @@ namespace ApoioMVC.MODEL
     public class Ativo
     {
         public int ID { get; set; }
-        public String Nome { get; set; }
         public String Descricao { get; set; }
         public String Num_Patrimonio { get; set; }
     }
