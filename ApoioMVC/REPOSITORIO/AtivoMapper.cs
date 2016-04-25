@@ -14,6 +14,7 @@ namespace ApoioMVC.REPOSITORIO
             Ativo at = new Ativo();
 
             at.ID = (int)Record["ID"];
+            at.Nome = (string)Record["Nome"];
             at.Descricao = (string)Record["Descricao"];
             at.Num_Patrimonio = (string)Record["Num_Patrimonio"];
             return at;
