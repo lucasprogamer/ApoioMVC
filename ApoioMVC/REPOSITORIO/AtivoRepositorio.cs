@@ -16,7 +16,7 @@ namespace ApoioMVC.REPOSITORIO
             return mapper.MapFromSource(DB.GetByID("SP_Ativo_BYID", ID));
         }
 
-        public List<Curso> Lista(ISQLMapper<Curso> mapper)
+        public List<Ativo> Lista(ISQLMapper<Ativo> mapper)
         {
             SqlParameter[] Param = new SqlParameter[]
             { };
@@ -24,7 +24,7 @@ namespace ApoioMVC.REPOSITORIO
             return mapper.MapAllFromSource(DB.ListaSQL(Param, SQL).Tables[0]);
         }
 
-        public int ADD(Curso Item)
+        public int ADD(Ativo Item)
         {
             SqlParameter ID = new SqlParameter("@ID", SqlDbType.Int);
             ID.Direction = ParameterDirection.Output;
@@ -39,7 +39,7 @@ namespace ApoioMVC.REPOSITORIO
             return Convert.ToInt32(ID.Value);
         }
 
-        public void Update(Curso Item)
+        public void Update(Ativo Item)
         {
 
             SqlParameter[] Param = new SqlParameter[]
@@ -50,7 +50,7 @@ namespace ApoioMVC.REPOSITORIO
             DB.ExecSP("SP_ATIVO_UPDATE", Param);
         }
 
-        public void Delete(Curso Item)
+        public void Delete(Ativo Item)
         {
             SqlParameter[] Param = new SqlParameter[]
             {
