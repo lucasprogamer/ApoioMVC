@@ -83,3 +83,31 @@ F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Razor.xml
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.csprojResolveAssemblyReference.cache
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.dll
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.pdb
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.csprojResolveAssemblyReference.cache
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.pdb
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\ApoioMVC.dll.config
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\ApoioMVC.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\ApoioMVC.pdb
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\Newtonsoft.Json.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Helpers.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Http.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Mvc.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Razor.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\Newtonsoft.Json.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Helpers.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Http.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Mvc.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.Razor.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hiro\Source\Repos\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Razor.xml
