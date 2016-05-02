@@ -83,3 +83,31 @@ F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\bin\System.Web.WebPages.Razor.xml
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.csprojResolveAssemblyReference.cache
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.dll
 F:\7 Periodo\Programacao WEB\ApoioMVC\ApoioMVC\obj\Debug\ApoioMVC.pdb
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\ApoioMVC.dll.config
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\ApoioMVC.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\ApoioMVC.pdb
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\Newtonsoft.Json.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Helpers.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Http.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Mvc.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Razor.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\Newtonsoft.Json.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Helpers.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Http.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Mvc.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.Razor.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\obj\Debug\ApoioMVC.csprojResolveAssemblyReference.cache
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\obj\Debug\ApoioMVC.dll
+C:\Users\lab02\Source\Repos\ApoioMVC2\ApoioMVC\obj\Debug\ApoioMVC.pdb
