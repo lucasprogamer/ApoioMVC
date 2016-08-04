@@ -1,0 +1,32 @@
+﻿@model ApoioMVC.MODEL.Ativo
+
+@{
+    ViewBag.Title = "Ativo";
+}
+
+<div>
+    <h2>Ativo</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Num_Patrimonio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Num_Patrimonio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-info" }) |
+    @Html.ActionLink("Voltar", "Index", 0, new { @class = "btn btn-success" })
+</p>

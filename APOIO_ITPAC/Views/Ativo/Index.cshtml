@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ApoioMVC.MODEL.Ativo>
+
+@{
+    ViewBag.Title = "Ativo";
+}
+<h2>Ativo</h2>
+<p>
+    @Html.ActionLink("Adicionar Ativo", "Create", 0, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-striped table-hover">
+
+    <tr class="hidden-xs hidden-sm">
+        <th>
+            <div class="col-md-4 col-xs-8">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </div>
+            <div class="col-md-4 col-xs-8">
+                @Html.DisplayNameFor(model => model.Num_Patrimonio)
+            </div>
+</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <div class="col-md-4 col-xs-8">
+                    <b class="hidden-md hidden-lg">
+                        @Html.DisplayNameFor(model => model.Descricao)
+                    </b>@Html.DisplayFor(modelItem => item.Descricao)
+
+                </div>
+                <div class="col-md-4 col-xs-8">
+                    <b class="hidden-md hidden-lg">
+                        @Html.DisplayNameFor(model => model.Num_Patrimonio)
+                    </b>@Html.DisplayFor(modelItem => item.Num_Patrimonio)
+                    </div>
+                    <div class="col-md-4 col-xs-8">
+
+                        @Html.ActionLink("Editar", "Edit", new { id = item.ID }, new { @class = "btn btn-success" })
+                        @Html.ActionLink("Detalhes", "Details", new { id = item.ID }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.ID }, new { @class = "btn btn-danger" })
+
+                    </div>
+</td>
+
+
+        </tr>
+    }
+
+</table>
+

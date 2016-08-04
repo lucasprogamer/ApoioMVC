@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ApoioMVC.MODEL.Curso>
+
+@{
+    ViewBag.Title = "Curso";
+}
+<h2>Curso</h2>
+<p>
+    @Html.ActionLink("Adicionar Curso", "Create", 0, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-striped table-hover">
+
+    <tr class="hidden-xs hidden-sm">
+        <th>
+            <div class="col-md-9 col-xs-8">
+                @Html.DisplayNameFor(model => model.Cursos)
+            </div>
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <div class="col-md-8 col-xs-8">
+                    <b class="hidden-md hidden-lg">
+                        @Html.DisplayNameFor(model => model.Cursos)
+                    </b>@Html.DisplayFor(modelItem => item.Cursos)
+                </div>
+                <div class="col-md-4 col-xs-8">
+                    
+                        @Html.ActionLink("Editar", "Edit", new { id = item.ID }, new { @class = "btn btn-success" })
+                        @Html.ActionLink("Detalhes", "Details", new { id = item.ID }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.ID }, new { @class = "btn btn-danger" })
+                    
+                </div>
+            </td>
+
+
+        </tr>
+    }
+
+</table>

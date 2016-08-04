@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ApoioMVC.MODEL.Reserva>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DtReserva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDSala)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDProfessor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDCurso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DtAgendamento)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtReserva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDSala)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDProfessor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDCurso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtAgendamento)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

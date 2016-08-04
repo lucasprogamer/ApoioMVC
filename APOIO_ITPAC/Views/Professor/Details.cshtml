@@ -1,0 +1,34 @@
+﻿@model ApoioMVC.MODEL.Professor
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h2>Professor</h2>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-info" }) |
+        @Html.ActionLink("Voltar", "Index", 0, new { @class = "btn btn-success" })
+    </p>
+</body>
+</html>
